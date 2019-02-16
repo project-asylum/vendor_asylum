@@ -79,6 +79,11 @@ PRODUCT_PACKAGES += \
     LockClock \
     su
 
+# Asylum packages
+PRODUCT_PACKAGES += \
+    SystemUIAsylum \
+    AsylumSettingsProvider
+
 # Optional packages
 PRODUCT_PACKAGES += \
     Basic \
