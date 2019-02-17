@@ -84,5 +84,10 @@
     <string-array name="config_ephemeralResolverPackage">
         <item>com.google.android.gms</item>
     </string-array>
+
+    <string-array translatable="false" name="config_deviceSpecificSystemServices">
+        <item>com.asylum.service.ActionsService</item>
+    </string-array>
+
 </resources>
 
