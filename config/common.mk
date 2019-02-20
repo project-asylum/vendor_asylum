@@ -71,6 +71,9 @@ PRODUCT_COPY_FILES += \
     vendor/asylum/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit \
     vendor/asylum/prebuilt/common/bin/sysinit:system/bin/sysinit
 
+# Disable boot jars check
+SKIP_BOOT_JARS_CHECK := true
+
 # Required packages
 PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
