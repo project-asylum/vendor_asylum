@@ -15,10 +15,15 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <declare-styleable name="TouchscreenGesture">
-        <attr name="scancode" format="integer" />
+    <declare-styleable name="Key">
+        <attr name="keyCode" format="integer" />
         <attr name="name" format="string" />
+        <attr name="key" format="string" />
         <attr name="path" format="string" />
         <attr name="defaultAction" format="string" />
+        <attr name="allowDisable" format="boolean" />
+        <attr name="supportsMultipleActions" format="boolean" />
+        <attr name="icon" format="reference" />
+        <attr name="order" format="integer" />
     </declare-styleable>
 </resources>
