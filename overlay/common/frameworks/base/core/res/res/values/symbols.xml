@@ -15,6 +15,6 @@
 -->
 <resources>
 
-    <java-symbol type="xml" name="touchscreen_gestures" />
+    <java-symbol type="xml" name="available_keys" />
 
 </resources>
